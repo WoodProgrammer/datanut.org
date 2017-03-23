@@ -1,0 +1,235 @@
+Started GET "/datanut/search" for ::1 at 2017-03-23 22:54:56 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (4.9ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by DatanutController#search as HTML
+Completed 500 Internal Server Error in 47ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to localhost:5000 (Connection refused - connect(2) for "localhost" port 5000)):
+  
+app/controllers/datanut_controller.rb:16:in `search'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (69.8ms)
+Started GET "/datanut/search" for ::1 at 2017-03-23 22:54:57 +0200
+Processing by DatanutController#search as HTML
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to localhost:5000 (Connection refused - connect(2) for "localhost" port 5000)):
+  
+app/controllers/datanut_controller.rb:16:in `search'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.1ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (55.9ms)
+Started GET "/datanut/search" for ::1 at 2017-03-23 22:55:18 +0200
+Processing by DatanutController#search as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to localhost:5000 (Connection refused - connect(2) for "localhost" port 5000)):
+  
+app/controllers/datanut_controller.rb:16:in `search'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.1ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (57.9ms)
+Started GET "/datanut/search" for ::1 at 2017-03-23 22:55:19 +0200
+Processing by DatanutController#search as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to localhost:5000 (Connection refused - connect(2) for "localhost" port 5000)):
+  
+app/controllers/datanut_controller.rb:16:in `search'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.9ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (54.0ms)
+Started GET "/datanut/search" for ::1 at 2017-03-23 22:55:20 +0200
+Processing by DatanutController#search as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to localhost:5000 (Connection refused - connect(2) for "localhost" port 5000)):
+  
+app/controllers/datanut_controller.rb:16:in `search'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.3ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (55.2ms)
+Started GET "/datanut/search" for ::1 at 2017-03-23 22:56:17 +0200
+Processing by DatanutController#search as HTML
+  Rendering datanut/search.html.erb within layouts/application
+  Rendered datanut/search.html.erb within layouts/application (756.0ms)
+Completed 200 OK in 1575ms (Views: 825.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/highcharts.js" for ::1 at 2017-03-23 22:56:19 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/javascripts/highcharts.js"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered collection of /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [5 times] (5.7ms)
+  Rendered collection of /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [9 times] (3.0ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.3ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (125.5ms)
+Started GET "/javascripts/highcharts.js" for ::1 at 2017-03-23 22:56:20 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/javascripts/highcharts.js"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered collection of /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [5 times] (1.9ms)
+  Rendered collection of /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [9 times] (2.9ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (90.0ms)
+Started GET "/localtower" for ::1 at 2017-03-23 22:56:29 +0200
+Started GET "/localtower/dashboard" for ::1 at 2017-03-23 22:56:29 +0200
+Processing by Localtower::PagesController#dashboard as HTML
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/bundler/gems/localtower-3da8078971f2/app/views/localtower/pages/dashboard.html.erb within layouts/localtower/application
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/bundler/gems/localtower-3da8078971f2/app/views/localtower/pages/dashboard.html.erb within layouts/localtower/application (2.3ms)
+Completed 200 OK in 15ms (Views: 12.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/light-bootstrap-dashboard-master/assets/css/bootstrap.min.css" for ::1 at 2017-03-23 22:56:29 +0200
+Started GET "/light-bootstrap-dashboard-master/assets/css/animate.min.css" for ::1 at 2017-03-23 22:56:29 +0200
+Started GET "/light-bootstrap-dashboard-master/assets/css/light-bootstrap-dashboard.css" for ::1 at 2017-03-23 22:56:29 +0200
+Started GET "/light-bootstrap-dashboard-master/assets/css/pe-icon-7-stroke.css" for ::1 at 2017-03-23 22:56:29 +0200
+Started GET "/light-bootstrap-dashboard-master/assets/js/bootstrap.min.js" for ::1 at 2017-03-23 22:56:29 +0200
+Started GET "/light-bootstrap-dashboard-master/assets/js/bootstrap-checkbox-radio-switch.js" for ::1 at 2017-03-23 22:56:29 +0200
+Started GET "/css/app.css" for ::1 at 2017-03-23 22:56:29 +0200
+Started GET "/light-bootstrap-dashboard-master/assets/js/light-bootstrap-dashboard.js" for ::1 at 2017-03-23 22:56:29 +0200
+Started GET "/js/masonry.pkgd.min.js" for ::1 at 2017-03-23 22:56:29 +0200
+Started GET "/js/app.js" for ::1 at 2017-03-23 22:56:29 +0200
+Started GET "/light-bootstrap-dashboard-master/assets/js/jquery-1.10.2.js" for ::1 at 2017-03-23 22:56:29 +0200
+Started GET "/light-bootstrap-dashboard-master/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v" for ::1 at 2017-03-23 22:56:29 +0200
+Started GET "/localtower/models" for ::1 at 2017-03-23 22:56:33 +0200
+Processing by Localtower::PagesController#models as HTML
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/bundler/gems/localtower-3da8078971f2/app/views/localtower/pages/models.html.erb within layouts/localtower/application
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/bundler/gems/localtower-3da8078971f2/app/views/localtower/pages/models.html.erb within layouts/localtower/application (2.1ms)
+Completed 200 OK in 17ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/light-bootstrap-dashboard-master/assets/css/bootstrap.min.css" for ::1 at 2017-03-23 22:56:33 +0200
+Started GET "/light-bootstrap-dashboard-master/assets/css/animate.min.css" for ::1 at 2017-03-23 22:56:33 +0200
+Started GET "/light-bootstrap-dashboard-master/assets/js/jquery-1.10.2.js" for ::1 at 2017-03-23 22:56:33 +0200
+Started GET "/css/app.css" for ::1 at 2017-03-23 22:56:33 +0200
+Started GET "/light-bootstrap-dashboard-master/assets/css/pe-icon-7-stroke.css" for ::1 at 2017-03-23 22:56:33 +0200
+Started GET "/light-bootstrap-dashboard-master/assets/js/bootstrap-checkbox-radio-switch.js" for ::1 at 2017-03-23 22:56:33 +0200
+Started GET "/light-bootstrap-dashboard-master/assets/js/bootstrap.min.js" for ::1 at 2017-03-23 22:56:33 +0200
+Started GET "/js/masonry.pkgd.min.js" for ::1 at 2017-03-23 22:56:33 +0200
+Started GET "/js/app.js" for ::1 at 2017-03-23 22:56:33 +0200
+Started GET "/light-bootstrap-dashboard-master/assets/js/light-bootstrap-dashboard.js" for ::1 at 2017-03-23 22:56:33 +0200
+Started GET "/light-bootstrap-dashboard-master/assets/css/light-bootstrap-dashboard.css" for ::1 at 2017-03-23 22:56:33 +0200
+Started GET "/light-bootstrap-dashboard-master/assets/fonts/Pe-icon-7-stroke.woff?d7yf1v" for ::1 at 2017-03-23 22:56:33 +0200
+Started GET "/datanut/search" for ::1 at 2017-03-23 23:01:36 +0200
+Processing by DatanutController#search as HTML
+Started GET "/" for ::1 at 2017-03-23 23:01:38 +0200
+Completed 500 Internal Server Error in 10830ms (ActiveRecord: 0.0ms)
+
+
+  
+ActiveResource::ServerError (Failed.  Response code = 500.  Response message = Internal Server Error.):
+  
+app/controllers/datanut_controller.rb:16:in `search'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.4ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (124.5ms)
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/railties-5.0.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/railties-5.0.2/lib/rails/templates/rails/welcome/index.html.erb (2.9ms)
+Completed 200 OK in 9ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
