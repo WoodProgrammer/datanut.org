@@ -10,7 +10,7 @@
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
-!highcharts.js
+/.highcharts.js
 !/log/.keep
 !/tmp/.keep
 
