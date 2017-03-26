@@ -20,7 +20,7 @@
   <div class="container"  >
     <div class="row" align="left">
       <div >
-        <%= form_tag("index", :method=>'post', :multipart => true) do %>
+        <%= form_tag("index", :method=>'get', :multipart => true) do %>
 
             <%= select_tag(:id, options_for_select(City.all.collect {|p| [p.name, p.id ] }) ,class:"selectpicker",id: "selector") %>
            <br>
