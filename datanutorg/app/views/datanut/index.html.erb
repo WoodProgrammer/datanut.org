@@ -88,6 +88,18 @@
       <ul class="pagination pagination-lg pager" id="myPager"></ul>
       </div>
 	</div>
+
+
+  <div>
+    <%= javascript_include_tag "//www.google.com/jsapi" %>
+    <%= javascript_include_tag "highcharts.js", "chartkick" %>
+    <div>
+      <%= line_chart @quake_graph, xtitle: "Deprem Boyutu", ytitle: "Zaman" %>
+    </div>
+
+
+
+  </div>
 </div>
 <script type="text/javascript">
 $.fn.pageMe = function(opts){
@@ -198,6 +210,11 @@ $(document).ready(function(){
 
 });
 </script>
+
+
+
+
+
 
 </body>
 </html>

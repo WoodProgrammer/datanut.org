@@ -3,9 +3,9 @@ class DatanutController < ApplicationController
     #@quake=Quake.(city_id:)
     @quake=Quake.where(city_id:quake_params['id'])
     @city=City.where(id: quake_params['id'])
-
-
     @name=@city.as_json
+    @quake_graph=@quake.map { |x| [x.date,x.power]}.take(15)
+
     #render json: @quake, status: 200
   end
   def one_city
