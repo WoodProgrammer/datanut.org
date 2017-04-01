@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  root 'temp_pages#index' 
+
   get 'datanut/index'
 
   get 'datanut/one_city'
