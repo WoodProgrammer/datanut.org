@@ -2745,3 +2745,1273 @@ Processing by TempPagesController#index as HTML
 Completed 200 OK in 23ms (Views: 20.7ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2017-04-02 03:05:42 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:58: syntax error, unexpected ',', expecting ')'
+...( email_field(:user, :address), class: "form-control", id:"e...
+...                               ^
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:58: syntax error, unexpected ',', expecting ')'
+...ddress), class: "form-control", id:"exampleInputEmail1",plac...
+...                               ^
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:58: syntax error, unexpected ',', expecting ')'
+...trol", id:"exampleInputEmail1",placeholder:"E-mail"  );@outp...
+...                               ^
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:76: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:78: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/temp_pages/index.html.erb:58: syntax error, unexpected ',', expecting ')'
+app/views/temp_pages/index.html.erb:58: syntax error, unexpected ',', expecting ')'
+app/views/temp_pages/index.html.erb:58: syntax error, unexpected ',', expecting ')'
+app/views/temp_pages/index.html.erb:76: syntax error, unexpected keyword_ensure, expecting keyword_end
+app/views/temp_pages/index.html.erb:78: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.9ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.7ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (85.2ms)
+Started GET "/" for ::1 at 2017-04-02 03:05:44 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:58: syntax error, unexpected ',', expecting ')'
+...( email_field(:user, :address), class: "form-control", id:"e...
+...                               ^
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:58: syntax error, unexpected ',', expecting ')'
+...ddress), class: "form-control", id:"exampleInputEmail1",plac...
+...                               ^
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:58: syntax error, unexpected ',', expecting ')'
+...trol", id:"exampleInputEmail1",placeholder:"E-mail"  );@outp...
+...                               ^
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:76: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:78: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/temp_pages/index.html.erb:58: syntax error, unexpected ',', expecting ')'
+app/views/temp_pages/index.html.erb:58: syntax error, unexpected ',', expecting ')'
+app/views/temp_pages/index.html.erb:58: syntax error, unexpected ',', expecting ')'
+app/views/temp_pages/index.html.erb:76: syntax error, unexpected keyword_ensure, expecting keyword_end
+app/views/temp_pages/index.html.erb:78: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.4ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (57.9ms)
+Started GET "/" for ::1 at 2017-04-02 03:05:54 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:76: syntax error, unexpected keyword_ensure, expecting keyword_end
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:78: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/views/temp_pages/index.html.erb:76: syntax error, unexpected keyword_ensure, expecting keyword_end
+app/views/temp_pages/index.html.erb:78: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (57.2ms)
+Started GET "/" for ::1 at 2017-04-02 03:06:06 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (12.2ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `chomp' for nil:NilClass):
+    53:                    <div class="panel panel-default" id="panel-login">
+    54:                        <div class="panel-body">
+    55:                            <h2 id="title-login">datanut.org</h2>
+    56:                            <%=form_tag("localhost:5000/auth_user",:method=>"post") do %>
+    57:                                <div class="form-group">
+    58:                                    <%= email_field(:user, :address)%>
+    59: 
+  
+app/views/temp_pages/index.html.erb:56:in `_app_views_temp_pages_index_html_erb___2022908766439469232_70308359484820'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.4ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (63.9ms)
+Started GET "/" for ::1 at 2017-04-02 03:06:49 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 252ms (Views: 250.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-02 03:07:01 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:58: syntax error, unexpected ',', expecting ')'
+... email_field(:user, :address) , class: "form-control", id:"e...
+...                               ^
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:58: syntax error, unexpected ',', expecting ')'
+...dress) , class: "form-control", id:"exampleInputEmail1",plac...
+...                               ^
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:58: syntax error, unexpected ',', expecting ')'
+...trol", id:"exampleInputEmail1",placeholder:"E-mail"  );@outp...
+...                               ^):
+  
+app/views/temp_pages/index.html.erb:58: syntax error, unexpected ',', expecting ')'
+app/views/temp_pages/index.html.erb:58: syntax error, unexpected ',', expecting ')'
+app/views/temp_pages/index.html.erb:58: syntax error, unexpected ',', expecting ')'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (16.8ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (98.6ms)
+Started GET "/" for ::1 at 2017-04-02 03:07:13 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:58: syntax error, unexpected tLABEL, expecting ')'
+...l_field(:user, :address) class: "form-control" id:"exampleIn...
+...                               ^
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:58: syntax error, unexpected tIDENTIFIER, expecting ')'
+...dress) class: "form-control" id:"exampleInputEmail1" placeho...
+...                               ^
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:58: syntax error, unexpected tIDENTIFIER, expecting ')'
+...exampleInputEmail1" placeholder:"E-mail"  );@output_buffer.s...
+...                               ^):
+  
+app/views/temp_pages/index.html.erb:58: syntax error, unexpected tLABEL, expecting ')'
+app/views/temp_pages/index.html.erb:58: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/temp_pages/index.html.erb:58: syntax error, unexpected tIDENTIFIER, expecting ')'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (59.7ms)
+Started GET "/" for ::1 at 2017-04-02 03:07:23 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:58: syntax error, unexpected keyword_class, expecting ')'
+...il_field(:user, :address) class=> "form-control" id=>"exampl...
+...                               ^
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:58: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ress) class=> "form-control" id=>"exampleInputEmail1" placeh...
+...                               ^
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:58: syntax error, unexpected tIDENTIFIER, expecting ')'
+...exampleInputEmail1" placeholder=>"E-mail"  );@output_buffer....
+...                               ^):
+  
+app/views/temp_pages/index.html.erb:58: syntax error, unexpected keyword_class, expecting ')'
+app/views/temp_pages/index.html.erb:58: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/temp_pages/index.html.erb:58: syntax error, unexpected tIDENTIFIER, expecting ')'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.2ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (55.7ms)
+Started GET "/" for ::1 at 2017-04-02 03:07:24 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:58: syntax error, unexpected keyword_class, expecting ')'
+...il_field(:user, :address) class=> "form-control" id=>"exampl...
+...                               ^
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:58: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ress) class=> "form-control" id=>"exampleInputEmail1" placeh...
+...                               ^
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:58: syntax error, unexpected tIDENTIFIER, expecting ')'
+...exampleInputEmail1" placeholder=>"E-mail"  );@output_buffer....
+...                               ^):
+  
+app/views/temp_pages/index.html.erb:58: syntax error, unexpected keyword_class, expecting ')'
+app/views/temp_pages/index.html.erb:58: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/temp_pages/index.html.erb:58: syntax error, unexpected tIDENTIFIER, expecting ')'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.4ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (53.2ms)
+Started GET "/" for ::1 at 2017-04-02 03:07:51 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:58: syntax error, unexpected ',', expecting ')'
+...( email_field(:user, :address),class: "form-control",id:"exa...
+...                               ^
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:58: syntax error, unexpected ',', expecting ')'
+...address),class: "form-control",id:"exampleInputEmail1",place...
+...                               ^
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:58: syntax error, unexpected ',', expecting ')'
+...ntrol",id:"exampleInputEmail1",placeholder:"E-mail"  );@outp...
+...                               ^):
+  
+app/views/temp_pages/index.html.erb:58: syntax error, unexpected ',', expecting ')'
+app/views/temp_pages/index.html.erb:58: syntax error, unexpected ',', expecting ')'
+app/views/temp_pages/index.html.erb:58: syntax error, unexpected ',', expecting ')'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.4ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (57.9ms)
+Started GET "/" for ::1 at 2017-04-02 03:07:52 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:58: syntax error, unexpected ',', expecting ')'
+...( email_field(:user, :address),class: "form-control",id:"exa...
+...                               ^
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:58: syntax error, unexpected ',', expecting ')'
+...address),class: "form-control",id:"exampleInputEmail1",place...
+...                               ^
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:58: syntax error, unexpected ',', expecting ')'
+...ntrol",id:"exampleInputEmail1",placeholder:"E-mail"  );@outp...
+...                               ^):
+  
+app/views/temp_pages/index.html.erb:58: syntax error, unexpected ',', expecting ')'
+app/views/temp_pages/index.html.erb:58: syntax error, unexpected ',', expecting ')'
+app/views/temp_pages/index.html.erb:58: syntax error, unexpected ',', expecting ')'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (57.4ms)
+Started GET "/" for ::1 at 2017-04-02 03:09:20 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 24ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-02 03:09:29 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 36ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-02 03:10:26 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 24ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-02 03:11:35 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 24ms (Views: 21.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-02 03:12:21 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 24ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-02 03:12:22 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-02 03:13:32 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-02 03:13:54 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 23ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-02 03:13:55 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 21ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-02 03:13:56 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 23ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-02 03:14:26 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-02 03:14:27 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-02 03:14:32 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 21ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-02 03:14:32 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-02 03:14:34 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-02 03:15:39 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-02 03:15:44 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 21ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-02 03:16:16 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:63: syntax error, unexpected ',', expecting ')'
+...(password_field_tag(:password),class:"form-control",id:"exam...
+...                               ^
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:63: syntax error, unexpected ',', expecting ')'
+...password),class:"form-control",id:"exampleInputPassword1",pl...
+...                               ^
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:63: syntax error, unexpected ',', expecting ')'
+...ol",id:"exampleInputPassword1",placeholder:"Password");@outp...
+...                               ^):
+  
+app/views/temp_pages/index.html.erb:63: syntax error, unexpected ',', expecting ')'
+app/views/temp_pages/index.html.erb:63: syntax error, unexpected ',', expecting ')'
+app/views/temp_pages/index.html.erb:63: syntax error, unexpected ',', expecting ')'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (58.3ms)
+Started GET "/" for ::1 at 2017-04-02 03:17:05 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 24ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-02 03:17:30 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 24ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-02 03:19:05 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 27ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-02 03:19:21 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 29ms (Views: 27.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-02 03:19:22 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 27ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-02 03:20:14 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:63: syntax error, unexpected ',', expecting ')'
+...(password_field_tag(:password),{:style=>class:"form-control"...
+...                               ^
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:63: syntax error, unexpected ',', expecting &. or :: or '[' or '.'
+...,{:style=>class:"form-control",id:"exampleInputPassword1",pl...
+...                               ^
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:63: syntax error, unexpected ',', expecting ')'
+...ol",id:"exampleInputPassword1",placeholder:"Password"});@out...
+...                               ^
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:63: syntax error, unexpected '}', expecting ')'
+...sword1",placeholder:"Password"});@output_buffer.safe_append='
+...                               ^
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:68: syntax error, unexpected keyword_end, expecting ')'
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:77: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:79: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/temp_pages/index.html.erb:63: syntax error, unexpected ',', expecting ')'
+app/views/temp_pages/index.html.erb:63: syntax error, unexpected ',', expecting &. or :: or '[' or '.'
+app/views/temp_pages/index.html.erb:63: syntax error, unexpected ',', expecting ')'
+app/views/temp_pages/index.html.erb:63: syntax error, unexpected '}', expecting ')'
+app/views/temp_pages/index.html.erb:68: syntax error, unexpected keyword_end, expecting ')'
+app/views/temp_pages/index.html.erb:77: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/temp_pages/index.html.erb:79: syntax error, unexpected keyword_end, expecting ')'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.7ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (57.8ms)
+Started GET "/" for ::1 at 2017-04-02 03:20:34 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:63: syntax error, unexpected ',', expecting &. or :: or '[' or '.'
+...,{:style=>class:"form-control",id:"exampleInputPassword1",pl...
+...                               ^
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:63: syntax error, unexpected ',', expecting ')'
+...ol",id:"exampleInputPassword1",placeholder:"Password"}));@ou...
+...                               ^
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:63: syntax error, unexpected '}', expecting ')'
+...sword1",placeholder:"Password"}));@output_buffer.safe_append...
+...                               ^
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:68: syntax error, unexpected keyword_end, expecting ')'
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:77: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:79: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/temp_pages/index.html.erb:63: syntax error, unexpected ',', expecting &. or :: or '[' or '.'
+app/views/temp_pages/index.html.erb:63: syntax error, unexpected ',', expecting ')'
+app/views/temp_pages/index.html.erb:63: syntax error, unexpected '}', expecting ')'
+app/views/temp_pages/index.html.erb:68: syntax error, unexpected keyword_end, expecting ')'
+app/views/temp_pages/index.html.erb:77: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/temp_pages/index.html.erb:79: syntax error, unexpected keyword_end, expecting ')'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.3ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (55.1ms)
+Started GET "/" for ::1 at 2017-04-02 03:20:40 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:63: syntax error, unexpected ',', expecting ')'
+...(password_field_tag(:password),{:style=>class:"form-control"...
+...                               ^
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:63: syntax error, unexpected ',', expecting &. or :: or '[' or '.'
+...,{:style=>class:"form-control",id:"exampleInputPassword1",pl...
+...                               ^
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:63: syntax error, unexpected ',', expecting ')'
+...ol",id:"exampleInputPassword1",placeholder:"Password"});@out...
+...                               ^
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:63: syntax error, unexpected '}', expecting ')'
+...sword1",placeholder:"Password"});@output_buffer.safe_append='
+...                               ^
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:68: syntax error, unexpected keyword_end, expecting ')'
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:77: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:79: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/temp_pages/index.html.erb:63: syntax error, unexpected ',', expecting ')'
+app/views/temp_pages/index.html.erb:63: syntax error, unexpected ',', expecting &. or :: or '[' or '.'
+app/views/temp_pages/index.html.erb:63: syntax error, unexpected ',', expecting ')'
+app/views/temp_pages/index.html.erb:63: syntax error, unexpected '}', expecting ')'
+app/views/temp_pages/index.html.erb:68: syntax error, unexpected keyword_end, expecting ')'
+app/views/temp_pages/index.html.erb:77: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/temp_pages/index.html.erb:79: syntax error, unexpected keyword_end, expecting ')'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (58.4ms)
+Started GET "/" for ::1 at 2017-04-02 03:21:11 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:68: syntax error, unexpected keyword_end, expecting ')'
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:77: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/emirozbir/Desktop/datanut.org/datanutorg/app/views/temp_pages/index.html.erb:79: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/temp_pages/index.html.erb:68: syntax error, unexpected keyword_end, expecting ')'
+app/views/temp_pages/index.html.erb:77: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/temp_pages/index.html.erb:79: syntax error, unexpected keyword_end, expecting ')'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.1ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (61.0ms)
+Started GET "/" for ::1 at 2017-04-02 03:21:18 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 23ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-02 03:21:23 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 21ms (Views: 20.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/auth_user" for ::1 at 2017-04-02 03:31:09 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/auth_user"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [6 times] (2.2ms)
+  Rendered collection of /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [9 times] (1.7ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.8ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (96.0ms)
+Started GET "/api/location/17" for ::1 at 2017-04-02 03:35:26 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/api/location/17"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered collection of /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [6 times] (3.3ms)
+  Rendered collection of /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [9 times] (1.9ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (97.9ms)
+Started POST "/auth_user" for ::1 at 2017-04-02 03:35:41 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/auth_user"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered collection of /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [6 times] (1.7ms)
+  Rendered collection of /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [9 times] (1.8ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (83.2ms)
+Started GET "/" for ::1 at 2017-04-02 04:13:57 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 232ms (Views: 220.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-02 04:14:12 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 25ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-02 04:14:13 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 25ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-02 04:27:07 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (7.6ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 2..3)):
+    55:                            <h2 id="title-login">datanut.org</h2>
+    56:                            <%=form_tag("http://localhost:5000/auth_user",:method=>"post") do %>
+    57:                                <div class="form-group">
+    58:                                    <%= email_field(:email)  %>
+    59:                                </div>
+    60:                                <div class="form-group">
+    61:                                   <%=password_field_tag(:password)%>
+  
+app/views/temp_pages/index.html.erb:58:in `block in _app_views_temp_pages_index_html_erb__4361946500446683468_70192330344900'
+app/views/temp_pages/index.html.erb:56:in `_app_views_temp_pages_index_html_erb__4361946500446683468_70192330344900'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.0ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (69.4ms)
+Started GET "/" for ::1 at 2017-04-02 04:27:20 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 2..3)):
+    55:                            <h2 id="title-login">datanut.org</h2>
+    56:                            <%=form_tag("http://localhost:5000/auth_user",:method=>"post") do %>
+    57:                                <div class="form-group">
+    58:                                    <%=email_field(:email)%>
+    59:                                </div>
+    60:                                <div class="form-group">
+    61:                                   <%=password_field_tag(:password)%>
+  
+app/views/temp_pages/index.html.erb:58:in `block in _app_views_temp_pages_index_html_erb__4361946500446683468_70192357261360'
+app/views/temp_pages/index.html.erb:56:in `_app_views_temp_pages_index_html_erb__4361946500446683468_70192357261360'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.6ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (54.7ms)
+Started GET "/" for ::1 at 2017-04-02 04:27:21 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 2..3)):
+    55:                            <h2 id="title-login">datanut.org</h2>
+    56:                            <%=form_tag("http://localhost:5000/auth_user",:method=>"post") do %>
+    57:                                <div class="form-group">
+    58:                                    <%=email_field(:email)%>
+    59:                                </div>
+    60:                                <div class="form-group">
+    61:                                   <%=password_field_tag(:password)%>
+  
+app/views/temp_pages/index.html.erb:58:in `block in _app_views_temp_pages_index_html_erb__4361946500446683468_70192326514780'
+app/views/temp_pages/index.html.erb:56:in `_app_views_temp_pages_index_html_erb__4361946500446683468_70192326514780'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.0ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (55.1ms)
+Started GET "/" for ::1 at 2017-04-02 04:27:22 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 2..3)):
+    55:                            <h2 id="title-login">datanut.org</h2>
+    56:                            <%=form_tag("http://localhost:5000/auth_user",:method=>"post") do %>
+    57:                                <div class="form-group">
+    58:                                    <%=email_field(:email)%>
+    59:                                </div>
+    60:                                <div class="form-group">
+    61:                                   <%=password_field_tag(:password)%>
+  
+app/views/temp_pages/index.html.erb:58:in `block in _app_views_temp_pages_index_html_erb__4361946500446683468_70192332495360'
+app/views/temp_pages/index.html.erb:56:in `_app_views_temp_pages_index_html_erb__4361946500446683468_70192332495360'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (58.8ms)
+Started GET "/" for ::1 at 2017-04-02 04:27:43 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 2..3)):
+    55:                            <h2 id="title-login">datanut.org</h2>
+    56:                            <%=form_tag("http://localhost:5000/auth_user",:method=>"post") do %>
+    57:                                <div class="form-group">
+    58:                                    <%= email_field(:email)  %>
+    59:                                </div>
+    60:                                <div class="form-group">
+    61:                                   <%=password_field_tag(:password)%>
+  
+app/views/temp_pages/index.html.erb:58:in `block in _app_views_temp_pages_index_html_erb__4361946500446683468_70192357036500'
+app/views/temp_pages/index.html.erb:56:in `_app_views_temp_pages_index_html_erb__4361946500446683468_70192357036500'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (62.1ms)
+Started GET "/" for ::1 at 2017-04-02 04:27:44 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 2..3)):
+    55:                            <h2 id="title-login">datanut.org</h2>
+    56:                            <%=form_tag("http://localhost:5000/auth_user",:method=>"post") do %>
+    57:                                <div class="form-group">
+    58:                                    <%= email_field(:email)  %>
+    59:                                </div>
+    60:                                <div class="form-group">
+    61:                                   <%=password_field_tag(:password)%>
+  
+app/views/temp_pages/index.html.erb:58:in `block in _app_views_temp_pages_index_html_erb__4361946500446683468_70192326960140'
+app/views/temp_pages/index.html.erb:56:in `_app_views_temp_pages_index_html_erb__4361946500446683468_70192326960140'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.5ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (54.0ms)
+Started GET "/" for ::1 at 2017-04-02 04:27:49 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 263ms (Views: 260.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-02 04:27:57 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 22ms (Views: 20.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-02 04:29:06 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 22ms (Views: 20.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-02 04:29:27 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 2..3)):
+    1: 
+    2:                            <%=form_tag("http://localhost:5000/auth_user",:method=>"post") do %>
+    3:                                <div class="form-group">
+    4:                                    <%= email_field(:email)  %>
+    5: 
+    6:                                </div>
+    7:                                <div class="form-group">
+  
+app/views/temp_pages/index.html.erb:4:in `block in _app_views_temp_pages_index_html_erb__4361946500446683468_70192360995040'
+app/views/temp_pages/index.html.erb:2:in `_app_views_temp_pages_index_html_erb__4361946500446683468_70192360995040'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (61.2ms)
+Started GET "/" for ::1 at 2017-04-02 04:31:15 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 35ms (Views: 33.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-02 04:32:20 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 2..3)):
+    1: 
+    2: <%=form_tag("http://localhost:5000/auth_user",:method=>"post") do %>
+    3:  <div class="form-group">
+    4:     <%= email_field(:email) %>
+    5: 
+    6:  </div>
+    7:  <div class="form-group">
+  
+app/views/temp_pages/index.html.erb:4:in `block in _app_views_temp_pages_index_html_erb__4361946500446683468_70192362395800'
+app/views/temp_pages/index.html.erb:2:in `_app_views_temp_pages_index_html_erb__4361946500446683468_70192362395800'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.8ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (59.7ms)
+Started GET "/" for ::1 at 2017-04-02 04:32:58 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 24ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/auth_user" for ::1 at 2017-04-02 04:35:53 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/auth_user"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered collection of /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [6 times] (2.2ms)
+  Rendered collection of /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [9 times] (1.8ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (97.2ms)
+Started POST "/auth_user" for ::1 at 2017-04-02 04:36:14 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/auth_user"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered collection of /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [6 times] (1.8ms)
+  Rendered collection of /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [9 times] (1.9ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (93.6ms)
+Started POST "/auth_user" for ::1 at 2017-04-02 04:36:21 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/auth_user"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered collection of /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [6 times] (2.3ms)
+  Rendered collection of /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [9 times] (2.1ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (93.5ms)
+Started POST "/auth_user" for ::1 at 2017-04-02 04:36:35 +0300
+  
+ActionController::RoutingError (No route matches [POST] "/auth_user"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.8.2) lib/puma/configuration.rb:224:in `call'
+puma (3.8.2) lib/puma/server.rb:600:in `handle_request'
+puma (3.8.2) lib/puma/server.rb:435:in `process_client'
+puma (3.8.2) lib/puma/server.rb:299:in `block in run'
+puma (3.8.2) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered collection of /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [6 times] (2.0ms)
+  Rendered collection of /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [9 times] (2.0ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (92.4ms)
+Started GET "/" for ::1 at 2017-04-02 04:37:19 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (132.1ms)
+Completed 500 Internal Server Error in 140ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `e' for #<#<Class:0x007fadd9d50320>:0x007fadddf261a0>):
+    3:  <div class="form-group">
+    4: 
+    5: 
+    6:  <%= e(:email)%>
+    7:  </div>
+    8:  <div class="form-group">
+    9: 
+  
+app/views/temp_pages/index.html.erb:6:in `block in _app_views_temp_pages_index_html_erb__4361946500446683468_70192364861240'
+app/views/temp_pages/index.html.erb:2:in `_app_views_temp_pages_index_html_erb__4361946500446683468_70192364861240'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.0ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (64.5ms)
+Started GET "/" for ::1 at 2017-04-02 04:38:33 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 31ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-04-02 04:38:57 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 2..3)):
+    3:  <div class="form-group">
+    4: 
+    5: 
+    6:    <%= email_field(:email) %>
+    7: 
+    8:  </div>
+    9:  <div class="form-group">
+  
+app/views/temp_pages/index.html.erb:6:in `block in _app_views_temp_pages_index_html_erb__4361946500446683468_70192360521860'
+app/views/temp_pages/index.html.erb:2:in `_app_views_temp_pages_index_html_erb__4361946500446683468_70192360521860'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.9ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (59.2ms)
+Started GET "/" for ::1 at 2017-04-02 04:40:14 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 2..3)):
+    3:  <div class="form-group">
+    4: 
+    5: 
+    6:    <%= email_field(:email) %>
+    7: 
+    8:  </div>
+    9:  <div class="form-group">
+  
+app/views/temp_pages/index.html.erb:6:in `block in _app_views_temp_pages_index_html_erb__4361946500446683468_70192364862180'
+app/views/temp_pages/index.html.erb:2:in `_app_views_temp_pages_index_html_erb__4361946500446683468_70192364862180'
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.4ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/emirozbir/.rvm/gems/ruby-2.3.0@davinci_coders/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (58.6ms)
+Started GET "/" for ::1 at 2017-04-02 04:40:29 +0300
+Processing by TempPagesController#index as HTML
+  Rendering temp_pages/index.html.erb within layouts/application
+  Rendered temp_pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 23ms (Views: 21.3ms | ActiveRecord: 0.0ms)
+
+

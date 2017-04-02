@@ -9,7 +9,7 @@ group :development do
   gem "localtower", github: "damln/localtower"
 end
 
-
+gem 'devise'
 gem 'activeresource', github: 'rails/activeresource', branch: 'master'
 gem 'chartkick'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
