@@ -1,14 +1,42 @@
+<head>
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
 
-<%=form_tag("http://localhost:5000/auth_user",:method=>"post") do %>
- <div class="form-group">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+</head>
+<div style="background-color:black !important; text-align:center;">
+
+</div>
 
 
-<%=email_field_tag 'email'%>
- </div>
- <div class="form-group">
 
-  <%=password_field_tag(:password)%>
+<br>
+<br>
+    <div class="container">
+       <div class="row">
+           <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3"></div>
+           <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+               <div class="container-fluid container-login">
+                   <div class="panel panel-default" id="panel-login">
+                       <div class="panel-body">
+                           <h2 id="title-login">datanut.org</h2>
+                           <%=form_tag("http://localhost:5000/auth_user",:method=>"post") do %>
+                            <div class="form-group">
+                           <%=email_field_tag 'email'%>
+                            </div>
+                            <div class="form-group">
 
-  </div>
- <%=submit_tag "GİRİŞ YAP"%>
-<%end%>
+                             <%=password_field_tag(:password)%>
+
+                             </div>
+                            <%=submit_tag "KEY AL"%>
+                           <%end%>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3"></div>
+       </div>
+    </div>
